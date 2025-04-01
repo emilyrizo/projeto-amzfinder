@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>AMZfinder</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="header-container">
+        <div class="header-content">
+          <h1>
+            <a href="index.html">AMZ<span>finder</span></a>
+          </h1>
+          <div class="search-container">
+            <div class="search-input">
+              <input type="text" id="search-input" placeholder="Digite sua busca..." />
+              <button type="submit" id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="categories-container">
+        <div class="hamburger-menu">
+          <button class="hamburger-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="hamburger-content">
+            <ul class="categories-list">
+              <li class="category-item" data-search="Smartphone">Smartphones</li>
+              <li class="category-item" data-search="Notebook">Notebooks</li>
+              <li class="category-item" data-search="Televisão">Tvs</li>
+              <li class="category-item" data-search="Produtos gamer">Gamer</li>
+              <li class="category-item" data-search="Áudio e som">Áudio</li>              
+              <li class="category-item" data-search="Brinquedos">Brinquedos</li>              
+              <li class="category-item" data-search="Livros">Livros</li>
+              <li class="category-item" data-search="Produtos de esportes">Esportes</li>              
+              <li class="category-item" data-search="Suplementos">Suplementos</li>               
+              <li class="category-item" data-search="Produtos para casa">Casa</li>              
+              <li class="category-item" data-search="Produtos automotivos">Automotivo</li>
+              <li class="category-item" data-search="Pet shop">Pet Shop</li>
+            </ul>
+          </div>
+        </div>
+        <div class="categories-content">
+          <ul class="categories-list"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="banner-container">
+        <button class="banner-nav prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="banner-nav next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <div class="banner-content">
+          <div class="banner-slide" data-search="Suplementos">
+            <img
+              src="./assets/images/suplementos.jpg"
+              alt="Banner de suplementos"
+            />
+          </div>
+          <div class="banner-slide" data-search="Video games">
+            <img
+              src="./assets/images/games.jpg"
+              alt="Banner de Video Games"
+            />
+          </div>          
+          <div class="banner-slide" data-search="Casa">
+            <img
+              src="./assets/images/casa.jpg"
+              alt="Banner de casa"
+            />
+          </div>
+          <div class="banner-slide" data-search="Brinquedos">
+            <img
+              src="./assets/images/brinquedos.jpg"
+              alt="Banner de brinquedos"
+            />
+          </div>
+          <div class="banner-slide" data-search="Esportes">
+            <img
+              src="./assets/images/esportes.jpg"
+              alt="Banner de esportes"
+            />
+          </div>
+        </div>
+      </div>
+      <section class="featured-section">
+        <div class="featured-grid">
+          <div class="featured-card">
+            <div class="featured-image">
+              <img
+                src="https://m.media-amazon.com/images/I/51fex+9POTL._AC_SL1000_.jpg"
+                alt="iPhone em destaque"
+              />
+            </div>
+            <div class="featured-content">
+              <h3>iPhones</h3>
+              <p>Promoções exclusivas em iPhones</p>
+              <button class="featured-button" data-search="iPhone">
+                Ver Ofertas
+              </button>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div class="featured-image">
+              <img
+                src="https://m.media-amazon.com/images/I/81Dx50HZS+L._AC_SL1500_.jpg"
+                alt="Notebook em destaque"
+              />
+            </div>
+            <div class="featured-content">
+              <h3>Notebooks Gamer</h3>
+              <p>Até 35% OFF em notebooks gamer</p>
+              <button class="featured-button" data-search="Notebook gamer">
+                Ver Ofertas
+              </button>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div class="featured-image">
+              <img
+                src="https://m.media-amazon.com/images/I/61NkgJutOdL._AC_SL1000_.jpg"
+                alt="TV em destaque"
+              />
+            </div>
+            <div class="featured-content">
+              <h3>TVs Smart</h3>
+              <p>TVs Smart com descontos especiais</p>
+              <button class="featured-button" data-search="Smart tv">
+                Ver Ofertas
+              </button>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div class="featured-image">
+              <img
+                src="https://m.media-amazon.com/images/I/71XMCnkUyBL._AC_SL1500_.jpg"
+                alt="Echo"
+              />
+            </div>
+            <div class="featured-content">
+              <h3>Echo e Alexa</h3>
+              <p>Dispositivos Echo em promoção</p>
+              <button class="featured-button" data-search="Echo">
+                Ver Ofertas
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="loading" class="loading"></div>
+      <div id="error" class="error-message"></div>
+      <div id="results" class="products-grid"></div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
