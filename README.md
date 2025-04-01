@@ -1,5 +1,5 @@
 # AMZfinder 🔍
-O AMZFinder é uma aplicação web que permite aos usuários buscar produtos do Amazon com base em uma palavra-chave ou categoria. O sistema extrai listagens de produtos da primeira página de resultados da Amazon e exibe informações como título, classificação, número de avaliações, imagem e URL do produto.
+O AMZfinder é uma aplicação web que permite aos usuários buscar produtos do Amazon com base em uma palavra-chave ou categoria. O sistema extrai listagens de produtos da primeira página de resultados da Amazon e exibe informações como título, classificação, número de avaliações, imagem e URL do produto.
 
 ## 📌 Funcionalidades Principais
 
